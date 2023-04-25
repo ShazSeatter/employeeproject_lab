@@ -37,7 +37,7 @@ class EmployeprojectApplicationTests {
 	}
 
 	@Test
-	public void addemployeeAndProject(){
+	public void addEmployeeAndProject(){
 		Department department = new Department("Information Technology");
 		departmentRepository.save(department);
 
